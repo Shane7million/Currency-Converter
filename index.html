@@ -1,29 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Currency Converter</title>
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Currency Converter</title>
+ 
+  <script src="frankfurter.js" defer></script>
+  <script src="app.js" defer></script>
 </head>
 <body>
-    <main>
+  <main>
     <h1>Currency Converter</h1>
-    <form id="converter-form">
-        <label for="amount">Amount</label>
-        <input  id="amount" type="number" min="0" step="any" value="10" required>
 
-        <lebel for="from">From Currency</lebel>
-        <select id="from"></select>
-        
-        <lebel for="to"> To currency</lebel>
-        <sselect id="to"></sselect>
-        
-        <button type="submit">Convert</button>
+    <form id="converter-form">
+      <label for="amount">Amount</label>
+      <input id="amount" type="number" min="0" step="any" value="10" required>
+
+      <label for="from">From currency</label>
+      <select id="from"></select>
+
+      <label for="to">To currency</label>
+      <select id="to"></select>
+
+      <button type="submit">Convert</button>
     </form>
 
     <p id="result" role="status"></p>
-    </main>
+  </main>
 </body>
-
 </html>
