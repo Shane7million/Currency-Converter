@@ -10,7 +10,10 @@ const currencies = {
   USD: "US Dollar",
   GBP: "British Pound",
   CAD: "Canadian Dollar",
-  JPY: "Japanese Yen"
+  JPY: "Japanese Yen",
+  THB: "Thai Baht",
+  KRW: "South Korean Won",
+  CNY: "Chinese Yuan"
 };
 
 for (const [code, name] of Object.entries(currencies)) {
